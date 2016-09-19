@@ -1,4 +1,13 @@
+// Core variables and mixins
+@import "./global/_variables.scss";
+@import "./mixins/_buttons.scss";
+
+// Reset and dependencies
+
 // base
 @import './base/_normalize.scss';
 
 // @import "susy";
+
+//components
+@import './components/_buttons.scss';
